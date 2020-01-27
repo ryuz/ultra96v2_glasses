@@ -2097,21 +2097,8 @@ Wire Wire Line
 	8500 9950 9450 9950
 Text Label 9450 9950 2    50   ~ 0
 OLED1_RES
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5ED84DA0
-P 9600 9500
-F 0 "TP2" H 9658 9618 50  0000 L CNN
-F 1 "TestPoint" H 9658 9527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9800 9500 50  0001 C CNN
-F 3 "~" H 9800 9500 50  0001 C CNN
-	1    9600 9500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8500 9550 9600 9550
-Wire Wire Line
-	9600 9550 9600 9500
+	8500 9550 9500 9550
 $Comp
 L power:GND #PWR0106
 U 1 1 5EDB4F8B
@@ -3217,4 +3204,6 @@ Wire Wire Line
 	4800 9900 4700 9900
 Wire Wire Line
 	4400 9900 4250 9900
+Text Label 9150 9550 0    60   ~ 0
+PWR_EN
 $EndSCHEMATC
