@@ -2913,12 +2913,6 @@ Text Label 6700 5000 0    50   ~ 0
 LS_3V3_GPIO_1
 Wire Wire Line
 	6650 4700 7450 4700
-Wire Notes Line
-	15900 8400 15900 9900
-Wire Notes Line
-	10650 11150 9450 11150
-Wire Notes Line
-	12250 9850 13300 9850
 Wire Wire Line
 	11200 5250 11200 5450
 $Comp
