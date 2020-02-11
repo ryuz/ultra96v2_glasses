@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.1524)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "output_20200202/"))
+      (outputdirectory "output_20200211/"))
   )
 
   (net 0 "")
@@ -658,7 +658,7 @@
     (tags TSOT-23-5)
     (path /5E45778D)
     (attr smd)
-    (fp_text reference U1 (at -1.91 -2.8) (layer F.SilkS)
+    (fp_text reference U1 (at 1.39 2.6) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LM3671MF-3.3 (at 0 2.5) (layer F.Fab)
@@ -1976,7 +1976,7 @@
     (tags capacitor)
     (path /5E61CD64)
     (attr smd)
-    (fp_text reference C6 (at -0.6125 1.5) (layer F.SilkS)
+    (fp_text reference C6 (at 2.5875 0.2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10uF (at 0 1.43) (layer F.Fab)
@@ -7591,7 +7591,7 @@
   (segment (start 144.2125 149.1) (end 143.775 149.1) (width 0.1524) (layer F.Cu) (net 167))
   (segment (start 142.5 149.1) (end 141.048384 147.65) (width 0.1524) (layer F.Cu) (net 167))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E3E5EC1) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E41FFBF) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.1524)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -9863,7 +9863,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E3E5EBE) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E41FFBC) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.1524)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
